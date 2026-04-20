@@ -93,7 +93,7 @@ loadingManager.onLoad = () => {
 const loader = new GLTFLoader(loadingManager);
 
 loader.load(
-  "https://huggingface.co/George007koupp/object/resolve/main/NewRoom.glb",
+   "https://huggingface.co/George007koupp/object/resolve/main/NewRoom.glb",
   (gltf) => {
     const model = gltf.scene;
     scene.add(model);
